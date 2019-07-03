@@ -25,6 +25,8 @@ sites/*/services*.yml
 sites/*/files
 sites/*/private
 
+modules/contrib
+themes/contrib
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
 
