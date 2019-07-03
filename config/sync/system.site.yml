@@ -1,0 +1,14 @@
+uuid: 2288f9e8-0f8f-4f0c-824c-11dedf5b8fef
+name: 'Cv Maker'
+mail: admin@wampserver.invalid
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
