@@ -1,0 +1,11 @@
+uuid: c1328862-8402-491f-8f74-6004a84bbd7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cv_template_tags
+id: taxonomy_term.cv_template_tags
+target_entity_type_id: taxonomy_term
+target_bundle: cv_template_tags
+default_langcode: site_default
+language_alterable: false

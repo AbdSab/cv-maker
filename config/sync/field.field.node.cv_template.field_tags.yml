@@ -1,0 +1,29 @@
+uuid: 60b76045-18fb-43a0-a09d-82019a18012d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.cv_template
+    - taxonomy.vocabulary.cv_template_tags
+id: node.cv_template.field_tags
+field_name: field_tags
+entity_type: node
+bundle: cv_template
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cv_template_tags: cv_template_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

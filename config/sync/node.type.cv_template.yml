@@ -1,0 +1,17 @@
+uuid: d0148a02-d2b2-4467-8372-ba97a50fe560
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'CV Template'
+type: cv_template
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

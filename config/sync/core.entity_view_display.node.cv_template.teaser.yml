@@ -1,0 +1,31 @@
+uuid: b46b2012-984d-4d27-a680-9d969034762f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cv_template.body
+    - node.type.cv_template
+  module:
+    - text
+    - user
+id: node.cv_template.teaser
+targetEntityType: node
+bundle: cv_template
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: 94389e9e-f406-47ba-8709-c175e303f431
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cv_template
+id: node.cv_template
+target_entity_type_id: node
+target_bundle: cv_template
+default_langcode: site_default
+language_alterable: false

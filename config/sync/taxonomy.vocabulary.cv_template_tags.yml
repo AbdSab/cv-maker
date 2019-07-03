@@ -1,0 +1,8 @@
+uuid: 02f62305-c3af-4495-8721-c196fe7db813
+langcode: en
+status: true
+dependencies: {  }
+name: 'cv template tags'
+vid: cv_template_tags
+description: ''
+weight: 0
