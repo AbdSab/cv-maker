@@ -6,7 +6,9 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
-        "drush/drush": "^9.7"
+        "drush/drush": "^9.7",
+        "drupal/adminimal_admin_toolbar": "^1.9",
+        "drupal/pathauto": "^1.4"
     },
     "replace": {
         "drupal/core": "^8.7"
